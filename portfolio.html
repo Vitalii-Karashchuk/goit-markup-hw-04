@@ -15,10 +15,10 @@
 <body>
 <header class="header">
     <div class="container main-header">
-        <a class="header-link" href="./index.html"><span class="header-link-logo-start">Web</span><span
+        <a class="header-link link" href="./index.html"><span class="header-link-logo-start">Web</span><span
                 class="header-link-logo-end">Studio</span> </a>
         <nav class="navigation">
-            <ul class="menu-page list">
+            <ul class="menu-page">
                 <li class="menu-item">
                     <a class="menu-link link" href="./index.html">Студия</a>
                 </li>
@@ -30,15 +30,23 @@
                 </li>
             </ul>
         </nav>
-        <ul class="menu-contacts list">
-            <li class="menu-item">
-                <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="menu-contacts">
+            <li class="menu-item"> 
+                <a class="mail-link link" href="mailto:info@devstudio.com">
+                    <svg class="icon-letter">
+                        <use href="./images/sprite.svg#letter">_</use>
+                    </svg>
+                    info@devstudio.com</a>
             </li>
             <li class="menu-item">
-                <a class="tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="tel-link link" href="tel:+380961111111">
+                    <svg class="icon-phone">
+                        <use href="./images/sprite.svg#phone">_</use>
+                    </svg>
+                    +38 096 111 11 11</a>
             </li>
         </ul>
-    </div>  
+    </div>
 </header>
 <main>
     <section class="section-projeсts section">
@@ -147,26 +155,61 @@
         </div> 
     </section>
 </main>
-<footer class="footer">
-    <div class="container">
-        <a class="footer-link link" href="./index.html"><span class="footer-link-logo-start">Web</span><span
-                class="footer-link-logo-end">Studio</span> </a>
-        <address class="address">
-            <ul class="list-address">
-                <li class="list-address-item">
-                    <a class="list-address-item-link link" href="#" target="_blank" rel="noreferer nopaper">г. Киев, пр-т Леси
-                        Украинки, 26
-                    </a>
-                </li>
-                <li class="list-address-item">
-                    <a class="list-address-item-mail link" href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li class="list-address-item">
-                    <a class="list-address-item-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
-                </li>
-            </ul>
-        </address>
-    </div>
-</footer>
+    <footer class="footer">
+        <div class="container footer-contacts">
+            <div class="address-footer">
+                <a class="footer-link link" href="./index.html"><span class="footer-link-logo-start">Web</span><span
+                        class="footer-link-logo-end">Studio</span> </a>
+                <address class="address">
+                    <ul class="list-address">
+                        <li class="list-address-item">
+                            <a class="list-address-item-link link" href="#" target="_blank" rel="noreferer nopaper">г. Киев,
+                                пр-т Леси Украинки, 26
+                            </a>
+                        </li>
+                        <li class="list-address-item">
+                            <a class="list-address-item-mail link" href="mailto:info@example.com">info@example.com</a>
+                        </li>
+                        <li class="list-address-item">
+                            <a class="list-address-item-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="social-footer">
+                <h2 class="heading-social-footer">присоединяйтесь</h2>
+                <ul class="social-list">
+                    <li class="social-list-item-footer">
+                        <a class="social-list-link-footer link" href="#">
+                            <svg class="social-icon-footer">
+                                <use href="./images/sprite.svg#instagram">_</use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item-footer">
+                        <a class="social-list-link-footer link" href="#">
+                            <svg class="social-icon-footer">
+                                <use href="./images/sprite.svg#twitter">_</use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item-footer">
+                        <a class="social-list-link-footer link" href="#">
+                            <svg class="social-icon-footer">
+                                <use href="./images/sprite.svg#facebook">_</use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item-footer">
+                        <a class="social-list-link-footer link" href="#">
+                            <svg class="social-icon-footer">
+                                <use href="./images/sprite.svg#linkedin">_</use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
